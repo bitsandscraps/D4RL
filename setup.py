@@ -59,6 +59,7 @@ setup(
         ]
     },
     install_requires=[
+        "cython<3",
         "gym<0.24.0",
         "numpy",
         "mujoco_py",
