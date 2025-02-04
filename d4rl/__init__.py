@@ -185,4 +185,4 @@ def sequence_dataset(env, dataset=None, **kwargs):
         episode_step += 1
 
 
-__version__ = "1.2.4"
+__version__ = "1.2.5"
