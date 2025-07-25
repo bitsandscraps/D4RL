@@ -59,15 +59,14 @@ setup(
         ]
     },
     install_requires=[
-        "cython<3",
         "gym<0.24.0",
         "numpy",
-        "mujoco_py",
         "h5py",
         "termcolor",  # adept_envs dependency
         "click",  # adept_envs dependency
         "dm_control>=1.0.3",
         "mujoco <= 3.1.6",
+        "mujoco_py_cython3",
         "mjrl @ git+https://github.com/aravindr93/mjrl@master#egg=mjrl",
     ],
     extras_require={"pybullet": ["pybullet"]},
