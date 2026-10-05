@@ -1,6 +1,6 @@
 """Setups up the PettingZoo module."""
 
-from setuptools import find_packages, setup
+from setuptools import find_namespace_packages, setup
 
 
 def get_description():
@@ -45,7 +45,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     keywords=["Reinforcement Learning", "Datasets", "RL", "AI"],
-    packages=find_packages(),
+    packages=find_namespace_packages(include=["d4rl", "d4rl.*"]),
     include_package_data=True,
     package_data={
         "d4rl": [
